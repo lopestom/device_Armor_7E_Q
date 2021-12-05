@@ -1,0 +1,1 @@
+# device_ulefone_Armor_7E_Q
