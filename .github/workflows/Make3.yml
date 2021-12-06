@@ -18,7 +18,7 @@ on:
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/lopestom/device_ulefone_Armor_7E_Q'
+        default: 'https://github.com/lopestom/device_ulefone_Armor_7E_Q.git'
       DEVICE_BRANCH:
         description: 'DEVICE_BRANCH'
         required: true
