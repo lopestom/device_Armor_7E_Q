@@ -83,5 +83,5 @@
 /audio_dsp         emmc        /dev/block/platform/bootdevice/by-name/audio_dsp         flags=display="audio_dsp";backup=1
 
 # External-Devices (SDCARD | OTG)
-/external_sd    auto     /dev/block/mmcblk0p1  /dev/block/mmcblk0            flags=display="External_SDcard";storage;wipeingui;removable;fsflags="utf8"
+/external_sd    auto     /dev/block/mmcblk1p1  /dev/block/mmcblk1            flags=display="External_SDcard";storage;wipeingui;removable;fsflags="utf8"
 /usbotg        auto     /dev/block/sdd1  /dev/block/sdd                     flags=display="Usb_Otg";storage;wipeingui;removable;fsflags="utf8"
