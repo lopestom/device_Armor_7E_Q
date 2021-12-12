@@ -92,9 +92,9 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 0x1B000000
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0xE0000000
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x1C9DFF8000
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x1BF3FF8000
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_VENDORIMAGE_PARTITION_SIZE := 0x1F2D9000
+BOARD_VENDORIMAGE_PARTITION_SIZE := 0x24E2B000
 
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_USES_METADATA_PARTITION := true
@@ -182,4 +182,4 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 20.1.0
 VENDOR_SECURITY_PATCH := 2099-12-31
 
-TW_OVERRIDE_SYSTEM_PROPS := \ "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.device=ro.product.system.device;ro.product.model=ro.product.system.model;ro.product.name=ro.product.system.name"
+#TW_OVERRIDE_SYSTEM_PROPS := \ "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.device=ro.product.system.device;ro.product.model=ro.product.system.model;ro.product.name=ro.product.system.name"
